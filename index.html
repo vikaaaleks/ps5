@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"> </script>
+</head>
+<body>
+	<!-- header -->
+	<div class="col-12 bg-white header">
+		<div class="row">
+			<div class="bg-white header col-1">
+				<img src="pslogo.png" class="header col-10">
+			</div>
+			<div class="bg-white header col-1">
+				<div class="dropdown">
+  					<button class="btn btn-secondary dropdown-toggle bg-white text-dark border border-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   						 Игры
+  					</button>
+  					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    					<a class="dropdown-item" href="#">PS 5</a>
+    					<a class="dropdown-item" href="#">PS 4</a>
+   					 	<a class="dropdown-item" href="#">PS VR</a>
+  					</div>
+				</div>
+			</div>
+
+			<div class="bg-white header col-1">
+				<div class="dropdown">
+  					<button class="btn btn-secondary dropdown-toggle bg-white text-dark border border-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   						 Оборудование
+  					</button>
+  					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    					<a class="dropdown-item" href="#">PS 5</a>
+    					<a class="dropdown-item" href="#">PS 4</a>
+    					<a class="dropdown-item" href="#">PS VR</a>
+  					</div>
+				</div>
+			</div>
+
+			<div class="bg-white header col-1">
+				<div class="dropdown">
+  					<button class="btn btn-secondary dropdown-toggle bg-white text-dark border border-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   						 Новости
+  					</button>
+  					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    					<a class="dropdown-item" href="#">PS blog</a>
+  					</div>
+				</div>
+			</div>
+
+			<div class="bg-white header col-1">
+				<div class="dropdown">
+  					<button class="btn btn-secondary dropdown-toggle bg-white text-dark border border-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   						 Магазин
+  					</button>
+  					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    					<a class="dropdown-item" href="#">PS shop</a>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- big img -->
+	<div class="row">
+		<div class="col-12 bg-white bigimg pt-0">
+
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="carousel_1.jpg" class="d-block w-100 " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel_2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel_3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	</div>
+
+	<!-- games -->
+	<div class="col-11 mx-auto bg-light games">
+		<div class="row">
+			<div class="col-3 smgm">
+				<img src="assassins.jpg" class="col-12 imgm">
+					<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary bg-white text-dark mt-2" data-toggle="modal" data-target="#exampleModal">
+  Подробнее
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Assassin's creed Valhala</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       Станьте легендарным воином-викингом, воспитанным на историях о битвах и славе. Нападайте на врагов, развивайте свое поселение и накапливайте власть, стараясь заслужить свое место среди богов в Вальгалле.
+
+Продвинутые ролевые механики позволят вам управлять развитием своего персонажа и влиять на окружающий мир. Каждый сделанный вами выбор, от политических союзов и стратегии в бою до диалогов и улучшения экипировки, может стать очередной ступенькой на пути к славе.
+Стройте, улучшайте и приспосабливайте под свои нужды здания, такие как казармы, кузню, дом татуировщика и многое другое. Принимайте новых людей в свой клан и проживайте собственную жизнь викинга.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Добавить в корзину</button>
+      </div>
+    </div>
+  </div>
+</div>
+			</div>
+
+			<div class="col-3 smgm">
+				<img src="immortal.jpg" class="col-12 imgm">
+				<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary bg-white text-dark mt-2" data-toggle="modal" data-target="#exampleModal2">
+  Подробнее
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Immortals Fenyx Rising</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        На кону судьба всего мира: вы – последняя надежда богов.
+
+Вы играете за Феникса – нового крылатого полубога, который пытается спасти греческих богов и их дом от страшного проклятия. Сразитесь с мифическими существами, овладейте легендарными силами богов и в великой битве победите Тифона, самого опасного титана в греческой мифологии. 
+
+Immortals Fenyx Rising – новый остроумный взгляд на жанр приключенческих боевиков с открытым миром, где вас ждут головокружительные приключения, динамичные бои и истории, вдохновленные греческой мифологией.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Добавить в корзину</button>
+      </div>
+    </div>
+  </div>
+</div>
+			</div>
+			<div class="col-3  smgm">
+				<img src="sm.jpg" class="col-12 imgm">
+									<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary bg-white text-dark mt-2" data-toggle="modal" data-target="#exampleModal3">
+  Подробнее
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Spider-Man: Miles Morales</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        В новом приключении во вселенной Marvel’s Spider-Man юный Майлз Моралес пытается привыкнуть к своему новому дому и продолжает дело своего наставника Питера Паркера в качестве нового Человека-паука.
+
+Но когда над домом Майлза нависает страшная угроза, молодой герой понимает, что с великой силой приходит и великая ответственность. Чтобы спасти Нью-Йорк Marvel, Майлз придется надеть костюм Человека-паука и сделать его своим
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Добавить в корзину</button>
+      </div>
+    </div>
+  </div>
+</div>
+			</div>
+			<div class="col-3 smgm">
+				<img src="cod.jpg" class="col-12 imgm">
+									<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary bg-white text-dark mt-2" data-toggle="modal" data-target="#exampleModal4">
+  Подробнее
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Call of Duty: Black Ops Cold War</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Действие игры Black Ops Cold War происходит в период геополитического конфликта начала 1980-х годов.
+
+Встречайтесь с историческими деятелями и узнавайте жестокую правду, сражаясь в таких культовых местах по всему миру, как Восточный Берлин, Вьетнам, Турция, советские штаб-квартиры КГБ и так далее.
+
+Вам, как элитному оперативнику, предстоит разыскать таинственную личность, чья миссия – дестабилизировать глобальный баланс сил и изменить ход истории. Погрузитесь во тьму международных заговоров бок о бок с такими легендарными персонажами, как Вудс, Мэйсон и Хадсон, а также с новой группой оперативников, пытающихся предотвратить сценарий, готовившийся десятилетиями.
+
+Помимо кампании, Cold War предлагает новый арсенал оружия и снаряжения для многопользовательского режима и режима «Зомби».
+
+История на грани краха. Добро пожаловать в Call of Duty: Black Ops Cold War.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Добавить в корзину</button>
+      </div>
+    </div>
+  </div>
+</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+	<!-- items -->
+	<div class="bg-white col-12 items mt-3">
+			<p class="text-center">PLAY HAS NOW LIMITS</p>
+			<H1 class="text-center">Предстваляем PlayStation 5</H1>
+			<h4 class="text-center">Открой для себя новые игровые возможности, о которых вы даже не мечтали</h4>
+			<div class="bg-white mx-auto col-8 smgm">
+				<div class="row">
+					<div class="col-3 bg-white imgm">
+						<img src="https://img.championat.com/c/1200x900/news/big/k/i/paren-kupil-43-konsoli-ps5-dlja-pereprodazhi-no-byl-ograblen_1606632632962609085.jpg" class="imgs col-12">
+ 						<p><button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+    						Посмотреть
+  						</button></p>
+					</div>
+
+					<div class="col-3 bg-white imgm">
+						<img src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-thumbnail-ps5-01-en-17jul20?$native$" class="imgs col-12">
+						<p><button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+    						Посмотреть
+  						</button></p>
+					</div>
+					<div class="col-3 bg-white imgm">
+						<img src="https://img.mvideo.ru/Pdb/40074935b.jpg" class="imgs col-12">
+						<p><button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+    						Посмотреть
+  						</button></p>
+					</div>
+					<div class="col-3 bg-white imgm">
+						<img src="https://gmedia.playstation.com/is/image/SIEPDC/media-remote-image-block-ps5-02-en-16sep20?$native--t$" class="imgs col-12">
+						<p><button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+    						Посмотреть
+  						</button></p>
+					</div>
+
+	<div class="collapse" id="collapseExample1">
+  		<div class="card card-body">
+  			<h1>PlayStation 5</h1>
+    			Молниеносная скорость загрузки благодаря сверхскоростному накопителю SSD, невероятный эффект погружения благодаря тактильной отдаче, адаптивным спусковым кнопкам и 3D-звуку, а также потрясающие игры нового поколения для PlayStation®. 
+   		 <div>
+    		<button type="button" class="btn btn-primary col-4 mt-3">Узнать больше</button>
+    	</div>
+  	</div>
+</div>
+	<div class="collapse" id="collapseExample2">
+  		<div class="card card-body">
+  			<h1>Беспроводной контроллер DualSense™</h1>
+    			Откройте для себя волнующий мир захватывающих и реалистичных игр1 с новым контроллером для PS5™, который поддерживает тактильную отдачу и динамический триггерный эффект2. Беспроводной контроллер DualSense также оснащен встроенным микрофоном и кнопкой CREATE для создания контента — и все это вы получаете в невероятно эргономичном корпусе.
+   		 <div>
+    		<button type="button" class="btn btn-primary col-4 mt-3">Узнать больше</button>
+    	</div>
+  	</div>
+</div>
+
+<div class="collapse" id="collapseExample3">
+  		<div class="card card-body">
+  			<h1>Беспроводная гарнитура PULSE 3D™</h1>
+    			Играйте с комфортом благодаря беспроводной гарнитуре со специальной поддержкой 3D-звука на консоли PS52. Она поддерживает зарядку через USB Type-C™ и оснащена двумя микрофонами для шумоподавления, чтобы вы могли общаться в чате с кристально чистым звуком3.
+   		 <div>
+    		<button type="button" class="btn btn-primary col-4 mt-3">Узнать больше</button>
+    	</div>
+  	</div>
+</div>
+
+<div class="collapse" id="collapseExample4">
+  		<div class="card card-body">
+  			<h1>ПДУ мультимедиа</h1>
+    			Удобное управление фильмами, потоковыми сервисами3 и другим контентом на консоли PS5 благодаря интуитивно понятной компоновке кнопок.
+   		 <div>
+    		<button type="button" class="btn btn-primary col-4 mt-3">Узнать больше</button>
+    	</div>
+  	</div>
+</div>
+
+<div class="col-12 items bg-light">
+	<H1 class="text-center mt-3">Игры, какие только пожелаете</H1>
+	<iframe class="ml iframe" src="https://www.youtube.com/embed/i76gPpka2Fo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+	<div class="row mt-30 bg-light">
+		<div class="col-6 smgm">
+			<div class="row">
+				<img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-spiderman-video-thumb-block-9-en-110620?$1600px$" class="col-12 ifmg">
+				<h2 class="mt-2">Marvel's Spider-Man: Miles Morales</h2>
+				<p class="mt-1">Станьте свидетелем возвышения Майлза Моралеса по мере того, как он учится владеть невероятной силой, чтобы стать новым Человеком-пауком.</p>
+				<p><button class="btn btn-primary rounded-pill button" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+    						Узнать больше
+  						</button></p>
+			</div>
+		</div>
+		<div class="col-6 imgm">
+			<div class="row">
+				<img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-hzd-video-thumb-block-05-en-110620?$1600px$" class="col-12 ifmg">
+				<h2 class="mt-2">Horizon Forbidden West</h2>
+				<p class="mt-1">Присоединитесь к Элой в путешествии по Запретному Западу — прекрасным, но и страшным приграничным землям с новыми неизведанными опасностями.</p>
+				<p><button class="btn btn-primary rounded-pill button" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+    						Узнать больше
+  						</button></p>
+			</div>
+		</div>
+		<div class="col-6 imgm">
+			<div class="row">
+				<img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-ratchet_clank-video-thumb-block-06-en-110620?$1600px$" class="col-12 ifmg">
+				<h2 class="mt-3">Ratchet & Clank: Rift Apart</h2>
+				<p class="mt-1">Пробейте себе путь в этом межпространственном приключении с Рэтчетом и Кланком.</p>
+				<p><button class="btn btn-primary rounded-pill button" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+    						Узнать больше
+  						</button></p>
+			</div>
+		</div>
+		<div class="col-6 imgm">
+			<div class="row">
+				<img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-gt7-video-thumb-block-07-en-110620?$1600px$" class="col-12 ifmg">
+				<h2 class="mt-3">Gran Turismo™ 7</h2>
+				<p class="mt-1">Gran Turismo 7 дарит вам лучшее из созданного за 22 года работы над играми этой знаменитой серии.</p>
+				<p><button class="btn btn-primary rounded-pill button" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+    						Узнать больше
+  						</button></p>
+			</div>
+		</div>
+
+</div>
+</body>
+</html>

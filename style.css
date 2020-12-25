@@ -1,0 +1,42 @@
+.header {
+	height: 80px;
+}
+.bigimg {
+	height: 850px;
+}
+.games {
+	height:500px
+}
+.smgm{
+	height: 500px;
+}
+.imgm {
+	height: 400px
+}
+.items {
+	height: 800px
+}
+ .imgs {
+ 	height: 250px;
+ }
+ .iframe {
+ 	width: 800px;
+ 	height: 500px
+ }
+ .ml {
+ 	margin-left: 200px;
+ 	margin-top: 30px
+ }
+
+ .ifmg {
+ 	height: 300px
+ }
+
+ .mt-30 {
+ 	margin-top: 30px
+ }
+
+ .button {
+ 	width: 200px;
+ 	height: 50px
+ }
